@@ -5,7 +5,7 @@ A stand-in of udp2raw
 
 Run udp2raw-tunnel on docker compose
 
-client:
+server:
 ```yaml
  # server docker-compose.yml
 
@@ -21,7 +21,7 @@ client:
  # client docker-compose.yml
 ```
 
-server:
+client:
 ```yaml
  version: '3'
  services:
